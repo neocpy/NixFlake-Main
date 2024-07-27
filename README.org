@@ -1,0 +1,5 @@
+#+title: README
+
+Atm, this is a shoddy attempt to port to the awesome HYDE Project at, https://github.com/prasanthrangan/hyprdots, to NixOS.
+
+I am still very much a novice at NixOS, and my configuration is most likely dogwater at best right now.

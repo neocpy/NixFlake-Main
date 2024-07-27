@@ -16,7 +16,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in {
     nixosConfigurations = {
-      nixos = lib.nixosSystem {
+      archie = lib.nixosSystem {
 	inherit system;
         modules = [ ./configuration.nix ];
       };

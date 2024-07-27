@@ -22,6 +22,30 @@ in
   ];
 
   home.file = {
+    # Hyprland Configs:
+    ".config/hypr/hyprland.conf".source = ./config/hypr/hyprland.conf;
+    ".config/hypr/keybindings.conf".source = ./config/hypr/keybindings.conf;
+    ".config/hypr/monitors.conf".source = ./config/hypr/monitors.conf;
+    ".config/hypr/windowrules.conf".source = ./config/hypr/windowrules.conf;
+    ".config/hypr/animations.conf".source = ./config/hypr/animations.conf;
+    ".config/hypr/themes/theme.conf".source = ./config/hypr/themes/theme.conf;
+    ".config/hypr/themes/common.conf".source = ./config/hypr/themes/common.conf;
+    ".config/hypr/themes/colors.conf".source = ./config/hypr/themes/colors.conf;
+    ".config/hypr/userprefs.conf".source = ./config/hypr/userprefs.conf;
+
+    # Waybar Configs
+    ".config/waybar/config.jsonc".source = ./config/waybar/config.jsonc;
+    ".config/waybar/config.ctl".source = ./config/waybar/config.ctl;
+    ".config/waybar/style.css".source = ./config/waybar/style.css;
+    ".config/waybar/theme.css".source = ./config/waybar/theme.css;
+
+    # Rofi Configs
+    ".config/rofi/notification.rasi".source = ./config/rofi/notification.rasi;
+    ".config/rofi/clipboard.rasi".source = ./config/rofi/clipboard.rasi;
+    ".config/rofi/quickapps.rasi".source = ./config/rofi/quickapps.rasi;
+    ".config/rofi/selector.rasi".source = ./config/rofi/selector.rasi;
+    ".config/rofi/theme.rasi".source = ./config/rofi/theme.rasi;
+    ".config/rofi/wallbash.rasi".source = ./config/rofi/wallbash.rasi;
   };
 
   home.sessionVariables = {
@@ -37,4 +61,17 @@ in
       shellAliases = myAliases;
     };
   };
+
+  qt.enable = true;
+  gtk = {
+    enable = true;
+#    cursorTheme = {
+#      package = pkgs.onedark-cursor;
+#      name = "OneDark";
+    };
+
+#    theme = {
+#      name = "Materia-dark";
+#      package = pkgs.materia-theme;
+#    };
 }

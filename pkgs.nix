@@ -4,6 +4,7 @@
    environment.systemPackages = with pkgs; [
      neovim
      egl-wayland
+     wlogout
      git
      vesktop
      curl 
@@ -22,6 +23,8 @@
      bash
      swww
      networkmanagerapplet
+     parallel
+     jq
      gh
      rofi-wayland
      cliphist

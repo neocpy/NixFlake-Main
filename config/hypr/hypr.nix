@@ -1,7 +1,7 @@
 { config, pkgs, ...}:
 {
   home.file = {
-    "/hypr/hyprland.conf".source = ./hyprland.conf;
+    ".config/hypr/hyprland.conf".source = ./hyprland.conf;
     ".config/hypr/keybindings.conf".source = ./keybindings.conf;
     ".config/hypr/monitors.conf".source = ./monitors.conf;
     ".config/hypr/windowrules.conf".source = ./windowrules.conf;

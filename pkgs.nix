@@ -5,6 +5,7 @@
      neovim
      egl-wayland
      wlogout
+     envsubst
      git
      vesktop
      curl 
@@ -26,6 +27,7 @@
      parallel
      jq
      gh
+     imagemagick
      rofi-wayland
      cliphist
      udiskie

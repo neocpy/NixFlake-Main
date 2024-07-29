@@ -18,6 +18,10 @@
      syncthing
      wireplumber
      pavucontrol
+     easyeffects
+     cmake
+     gnumake
+     libgcc
      ncspot
      btop
      waybar
@@ -39,6 +43,7 @@
      texliveFull
      auctex
      ghostscript
+     thunderbird
      emacs
    ];
 

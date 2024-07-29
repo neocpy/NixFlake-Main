@@ -43,8 +43,15 @@
      texliveFull
      auctex
      ghostscript
+     gimp
      thunderbird
      emacs
+     # grim
+     # slurp
+     hyprshade
+     grimblast
+     swappy
+     dolphin
    ];
 
   programs = {
